@@ -1,0 +1,122 @@
+:root {
+    --primary-color: ;
+    --secondary-color: ;
+    --ternary-color: ;
+    --bg-color: ;
+}
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+body {
+    overflow-x: hidden;
+}
+
+
+.ocean {
+    display: flex;
+    width: 45%;
+    height: 100%;
+    background: linear-gradient(to top,#00000068,rgba(0,0,0,0)), url(./img/daniel-korpai-8GDCzWrcE3M-unsplash\ 1.png) center top / cover;
+    display:flex;
+    justify-content: space-between;
+    align-items:end;
+    text-decoration:none;
+
+}
+.text h2{
+    color: white;
+    font-size: 3rem;
+    
+}
+.debut {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 2rem;
+
+}
+.connexion {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+    margin-left: 30rem; 
+    
+}
+.email {
+    padding: 2rem;
+    margin-right: 12rem;
+    
+}
+
+
+.motdepasse {
+    margin-bottom: 5rem;
+}
+
+.boy {
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+background-color: #7286D3;
+color: #ffffff;
+margin-top: 4rem;
+border-radius: 20px;
+width: 200px;
+    height: 70px;
+    top: 564px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4rem;
+      
+}
+.space {
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 300;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color:#19192C;
+
+
+}
+.ligne {
+    margin-top: 4rem;
+}
+.reseau {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    
+}
+.rappel {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 26rem;
+    font-family: Poppins;
+font-size: 15px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #8EA7E9;
+
+}
+
+
